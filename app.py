@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 st.set_option('deprecation.showfileUploaderEncoding', False)
 # Load the pickled model
-model = pickle.load(open(restuarantreviewnlp.pkl','rb'))   
+model = pickle.load(open('restuarantreviewnlp.pkl','rb'))   
 
 
 def review(text):
